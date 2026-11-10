@@ -1,0 +1,43 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- uv / virtual env ---
+.venv/
+
+# --- Data and outputs (large, regenerable) ---
+data/
+outputs/
+models/
+submissions/*.csv
+*.parquet
+*.feather
+*.npy
+*.pkl
+*.joblib
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Experiment tracking ---
+wandb/
+mlruns/
+lightning_logs/
+catboost_info/
+
+# --- Tooling caches ---
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# --- Secrets ---
+.env
+kaggle.json
+
+# --- OS / editors ---
+.DS_Store
+.vscode/
+.idea/
